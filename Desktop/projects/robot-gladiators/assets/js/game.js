@@ -3,9 +3,14 @@ var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 20;
 console.log(playerName, playerAttack, playerHealth)
-var enemyName = "Roberto";
+var enemyNames = ["Roberto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
+
+console.log(enemyNames);
+console.log(enemyNames.length);
+console.log(enemyNames[0]);
+console.log(enemyNames[3]);
 
 var fight = function() {
   window.alert("Welcome to Robot Gladiators, punk!");
